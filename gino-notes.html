@@ -1,0 +1,330 @@
+<head>
+  <title>My Notes on Intro. to Programming</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <nav role="navigation" class="TOC">
+    <h2>Table of Contents</h2>
+    <ul>
+      <li class="TOC-lesson"><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a></li>
+      <ul>
+        <li><a href="#lesson-1-1">The web and how it works</li>
+        <li><a href="#lesson-1-2">What is a server and what is it used for?</li>
+        <li><a href="#lesson-1-3">Computers Don't Think Like Humans</li>
+        <li><a href="#lesson-1-4">HTML Tags and Elements</li>
+        <li><a href="#lesson-1-5">Inline and Block Elements</li>
+      </ul>
+      <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a></li>
+      <ul>
+        <li><a href="#lesson-2-1">The "tree-like structure" of HTML </a></li>
+        <li><a href="#lesson-2-2">Text Editors</a></li>
+        <li><a href="#lesson-2-3">Relationship between indentend HTML and boxes</a></li>
+      <li class="TOC-lesson"><a href="#lesson-2">Lesson 3: Introduction to "Serious" Programming</a></li>
+      <ul>
+        <li><a href="#lesson-3-1">The "tree-like structure" of HTML </a></li>
+        <li><a href="#lesson-3-2">Text Editors</a></li>
+        <li><a href="#lesson-3-3">Relationship between indentend HTML and boxes</a></li>
+      </ul>
+    </ul>
+    </nav>
+  </div>
+  <h1>Important Concepts Learned</h1>
+    <div class="concept-lesson">
+      <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+      <div class="concept" id="lesson-1-1">
+        <div class="concept-title">The web and how it works</div>
+        <div class="concept-description">
+          The web consists of a large number of computers spread all over the world that communicate with one another. Information  requested to the server through a web browser via the internet. These requests use what's called <b>H</b>ypertext <b>T</b>ransfer <b>P</b>rotocol (HTTP) Request. The server(s) replies to the request by returning the HTML document file which the web browser displays (interprets) using the (<em>HTTP</em>) Response. <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">Watch this video to have a better understanding of this concept.</a>
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-2">
+        <div class="concept-title">
+          What is a server and what is it used for?
+        </div>
+
+        <div class="concept-description">
+          Server is a special computer that is used to manage access to a centralized resource. One of its functions (or services if you will) is to accept requests from another computer on the internet
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-3">
+        <div class="concept-title">
+          Computers Don't Think Like Humans
+        </div>
+        <div class="concept-description">
+          Computers just interpret programmed instructions programmed by programmers literally. This makes them very unforgiving so if a programmer is not skillful he can cause huge problems in a program.
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-4">
+        <div class="concept-title">
+          HTML Tags and Elements
+        </div>
+        <div class="concept-description">
+            HTML documents are made of HTML elements. When writing HTML, we tell browsers the type of each element by using HTML tags
+        </div>
+      </div>
+      <div class="concept" id="lesson-1-5">
+        <div class="concept-title">
+          Inline and Block Elements
+        </div>
+        <div class="concept-description">
+          Inline tags are tags that do not create an invisible box around the content. There is no space created.
+          Examples of inline elements: img, span, span, b and em tags
+
+          Block elements form an "invisible box" around the content inside of them creating extra spaces.
+
+          By default, browsers always place a line break before and after the <div>  element. However, this can be changed in the Cascading Style Sheet.
+        </div>
+      </div>
+    </div> <!-- End of lesson 1 block -->
+    <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+    <div class="concept-lesson">
+      <div class="concept" id="lesson-2-1">
+        <div class="concept-title">
+          The "tree-like structure" of HTML
+        </div>
+        <div class="concept-description">
+          The "tree-like structure" comes from the fact that HTML
+          elements can have other elements inside of them. The web browser parses the HTML source code and creates an object tree based on it. In other words, the Document Object Model is the browser's internal representation of HTML source code.
+        </div>
+      </div>
+      <div class="concept" id="lesson-2-2">
+        <div class="concept-title">
+          Special Text Editors (for programming)
+        </div>
+        <div class="concept-description">
+          When writing code, programmers use special text editors (like Sublime Text for example). These editors are designed with features that basically enable programmers to avoid typos and increase their productivity. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+        </div>
+      </div>
+
+      <div class="concept" id="lesson-2-3">
+        <div class="concept-title">
+          Relationship between indentend HTML and boxes
+        </div>
+        <div class="concept-description">
+          When you read an HTML document as text, you noticed indentations throughout the document. The more indented an element is, the more deeply nested its corresponding "box" is.
+        </div>
+      </div>
+    </div>  <!-- End of lesson 2 block -->
+    <h2 id="lesson-3">Lesson 3: Introduction to "Serious" Programming</h2>
+    <div class="concept-lesson">
+      <div class="concept" id="lesson-3-1">
+        <div class="concept-title">
+          Computer
+        </div>
+        <div class="concept-description">
+          <p>
+            Most machines (like a toaster) are designed to do a few things. Unless you physically
+            alter these machines, they will only be able to do those things.
+          </p>
+          <p>
+            Computers are different. A computer can be <b>programmed</b> to do anything we want, as long as
+            we can write a program that specifies a <em>specific sequence of instructions</em>.
+          </p>
+        </div>
+    </div>
+    <div class="concept" id="lesson-3-2">
+      <div class="concept-title">
+        Computer Program
+      </div>
+      <div class="concept-description">
+        <p>
+          A program is a precise sequence of steps that a computer can follow to do something useful. Web browsers,
+          games, mobile apps, and simple print statements are all examples of computer programs.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-3">
+      <div class="concept-title">
+        Programming Language
+      </div>
+      <div class="concept-description">
+        <p>
+          A programming language is what programmers utilize to instruct a computer what to do. Python is one example of a programming language.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-4">
+      <div class="concept-title">
+        What is a compiler?
+      </div>
+      <div class="concept-description">
+        A compiler is a special program that processes statements written in a
+        particular programming language and turns them into machine language or "code" that a computer's processor uses. An example of a compiled language is Visual Basic.
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-5">
+      <div class="concept-title">
+        What is an Interpreter?
+      </div>
+      <div class="concept-description">
+        An interpreter checks the errors of a program statement by statement. An example of an interpreted language is python.
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-6">
+      <div class="concept-title">
+        What Are Debuggers?
+      </div>
+      <div class="concept-description">
+        <p>
+          Debuggers are computer programs that assist (mostly programmers) in the detection and correction of errors in computer programs.
+
+          The term debugging is the process of locating and fixing or bypassing bugs (errors) in computer program code.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-7">
+      <div class="concept-title">
+        Python Language
+      </div>
+      <div class="concept-description">
+        <p>
+          When you write Python code and press "Run", a <em>Python Interpreter</em> converts
+          the code you wrote as a set of instructions that the computer itself can understand and execute.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-8">
+        <div class="concept-title">
+          Grammar
+        </div>
+        <div class="concept-description">
+          <p>
+            Just like human languages have grammars, programming languages do too.  A grammar is a specification of what is "correct"
+            and what is "incorrect."
+          </p>
+          <p>
+            In languages like English, people can ofent make sense of sentences that aren't technically "correct," but computers aren't smart enough to do this.
+            This means we have to write code that is exactly "correct" according to the Python interpreter, otherwise
+            our code won't run.
+          </p>
+        </div>
+    </div>
+
+    <div class="concept" id="lesson-3-9">
+      <div class="concept-title">
+        Python Expressions
+      </div>
+      <div class="concept-description">
+        <p>
+          A Python "expression" is a legal Python statement. For example: <span class="code">print 1 + 1</span> is a valid expression, but <span class="code">print 1 +</span> (without a number at the end) is not.
+        </p>
+        <p>
+          <a href="https://www.udacity.com/course/viewer#!/c-ud552-nd/l-3527838955/e-48704311/m-48736065" target="_blank">This video</a> does a good job of explaining the Python grammar for "expressions".
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-10">
+      <div class="concept-title">
+        What is a variable and how to use it?
+      </div>
+      <div class="concept-description">
+        <p>
+          A variable is a temporary storage for data. You can use variables to store all sorts of data in Python or any other programming language.  The name of the variable is always on the left side of the equals sign (the assignment operator), and the value of the variable on the right side of the equals sign. First the name, then the value. In other languages, you need to specify the type (e.g. string, numeric - integer, long integer, etc, date) of variable you want to use before you can store data in it. That's not the case in Python however, it is a good programming habit to use comments to document the type of variable you are using. In addition, you can name your variables according to the data type. Example: if you want to store integer then it makes sense to name your variable intVariable.
+        </p>
+        <p>
+          The difference between the equals sign in the syntax of assigning a variable and the equals sign after an arithmetic calculation is that the equals sign in the latter represents the output of a result. There is no storage associated with it whereas in the former, it represents the input i.e. you are assigning a new value to a variable.
+        </p>
+        <p>
+          Variables are useful in mathematical calculations, reusability of data in the program, helps to organize code better.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-11">
+      <div class="concept-title">
+        IF...ELIF...ELSE Statements
+      </div>
+      <div class="concept-description">
+        <p>
+          The if statement is a conditional that, when it is satisfied, activates some part of code.
+
+          Syntax:
+                  if expression:
+                     statement(s)
+                  else:
+                     statement(s)
+        </p>
+        <p>
+          <en>Note: Python does not provide switch or case statements as in other languages
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-12">
+      <div class="concept-title">
+        Function
+      </div>
+      <div class="concept-description">
+        <p>
+          A function is a block of cohesive, reusable code that is used to perform a single, related action. Functions provide better modularity and a high degree of code reusing.
+        </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-13">
+      <div class="concept-title">
+        Difference between making and using a function
+      </div>
+      <div class="concept-description">
+          <p>
+            Every function is made by writing the line of code with the keyword <em>def</em> followed by the function name along with a list of parameters (or arguments if you like) enclosed by parentheses and a colon. The number of arguments defined in the function should be equal to the number of values passed in to a function when it is called out in the application.
+          </p>
+          <p>
+            In the body of the function we write the code which can be one line or a block of code that specified what to do with the parameters. The <em>return</em> statement is important in the function to indicate what kind of value will be produced as the output. Without the <em>return</em> statement your function will output nothing but code will still be performed inside the function.
+          </p>
+          <p>
+            Example:<br>
+          </p>
+          <p>
+            def display_greeting(strname): <br>
+            <span class="indent">return  "Hello " + strname</span><br>
+          </p>
+          <p>
+            print display_greeting("Johnny") <br>
+            >>>Hello Johnny <br>
+          </p>
+          <p>
+            Example of a function without the <em>return</em> statement <br>
+          </p>
+          <p>
+            def display_greeting(strname): <br>
+              <span class="indent">strname = "Hello " + strname</span><br>
+          </p>
+          <p>
+            print display_greeting("Johnny")<br>
+            >>>None<br>
+          </p>
+      </div>
+    </div>
+    <div class="concept" id="lesson-3-14">
+      <div class="concept-title">
+        Data Structure
+      </div>
+      <div class="concept-description">
+        <p>
+          List - List is a data type which is used to contain  a sequence of things. Anything really.
+          Syntax: <list>[<expression>,<expression>,...]
+          Example: p=[1,2,3,’a’,’b’,’uda’,’city’]
+        </p>
+
+        <p>
+          <b>list.index(x)</b>
+
+          Return the index in the list of the first item whose value is x. It is an error if there is no such item.
+          Syntax: <list>.index(<value>)
+          Example: p.index(2)
+        </p>
+
+        <p>
+          If <value> is in the <list>, it returns the first position where <value> is found in the <list> otherwise ir produces an error.
+        </p>
+        <p>
+          <b>list.append(x)</b>
+
+          Add an item to the end of the list; equivalent to a[len(a):] = [x].
+          Syntax: <list>.append(<value>)
+          Example: p.append(‘z’)
+
+          <b>FYI:</b> len() is a builtin function in python that returns the length (the number of items) of an object. The argument may be a sequence (such as a string, bytes, tuple, list, or range) or a collection (such as a dictionary, set, or frozen set).
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
